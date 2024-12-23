@@ -1,0 +1,4 @@
+streamlit
+pandas
+plotly
+# Add other dependencies you are using
