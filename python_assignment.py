@@ -8,7 +8,7 @@ st.set_page_config(page_title="Superstore Sales Dashboard", layout="wide")
 # Load the dataset
 @st.cache_data
 def load_data():
-    return pd.read_csv("C:\\Users\\Nivedita\\Downloads\\archive(4)\\Sample-Superstore.csv", encoding="ISO-8859-1")
+    return pd.read_csv("Sample-Superstore.csv", encoding="ISO-8859-1")
 
 df = load_data()
 
