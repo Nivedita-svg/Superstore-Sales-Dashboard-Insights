@@ -330,7 +330,7 @@ st.sidebar.markdown(
 )
 
 # Provide a download button for the DOCX file
-with open("C:\\Users\\Nivedita\\Downloads\\Superstore Sales Dashboard Insights.docx", "rb") as docx_file:
+with open("Superstore Sales Dashboard Insights.docx", "rb") as docx_file:
     st.sidebar.download_button(
         label="Superstore Sales Dashboard Insights",
         data=docx_file,
